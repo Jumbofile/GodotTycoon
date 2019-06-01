@@ -43,4 +43,4 @@ func _input(ev):
 #This function is just a bunch of print calls to make sure everything works
 func debug():
 	print("Camera Position: " + str(camera.translation))
-	
+	#pass
