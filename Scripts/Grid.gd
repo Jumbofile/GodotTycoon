@@ -17,7 +17,7 @@ func _ready():
 	pass # Replace with function body.
 
 #Returns the nearest point on a grid based upon the passed in Vector3
-func GetNearestPointOnGrid(pos):
+func getNearestPointOnGrid(pos):
 	var newPos = Vector3(round(pos.x / cubeSize), round(pos.y / cubeSize), round(pos.z / cubeSize))
 	return newPos
 
